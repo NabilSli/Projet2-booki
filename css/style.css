@@ -1,6 +1,9 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -16,6 +19,8 @@
 body {
     display: flex;
     justify-content: center;
+    border: 0px;
+    margin: 0px;
 }
 
 .main-container {
@@ -51,6 +56,37 @@ body {
 
 .neutralStar {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+.headerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.menunav {
+    display: flex; 
+}
+
+.menunav a{
+    text-decoration: none;
+    color: black;  
+}
+
+.menunav a:hover {
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
+    padding-top: 18px;
+}
+
+.navhebergements {
+    margin-right: 50px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -158,5 +194,46 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .headerbox {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        border-bottom:solid 2px #F2F2F2;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .logo {
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .menunav {
+        display: flex;
+        justify-content: center;
+         
+    }
+    
+    .logo img{
+        width: 80px;
+    }
+    
+    .menunav a:hover {
+        color: #0065FC;
+        border-block-end: solid 2px #0065FC ;
+        border-top: none;
+        padding-bottom: 20px;   
+    }
+
+    .menunav a{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 0 0px;
+        box-sizing: border-box;
+    }    
 }
