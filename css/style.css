@@ -58,35 +58,111 @@ body {
     color: var(--main-bg-color)
 }
 
+.titre-title {
+    padding-bottom: 30px;
+}
+
 /****** Header ***********/
-.headerbox {
+.header-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .logo img{
     width: 80px;
+    position: absolute;
 }
 
-.menunav {
-    display: flex; 
+.menu-nav {
+    display: flex;
+    flex-direction: row; 
 }
 
-.menunav a{
+.menu-nav a{
     text-decoration: none;
     color: black;  
 }
 
-.menunav a:hover {
+.menu-nav a:hover {
     color: #0065FC;
     border-top: solid 2px #0065FC;
     padding-top: 18px;
 }
 
-.navhebergements {
+.nav-hebergements {
     margin-right: 50px;
+}
+
+/****** barre de recherche ***********/
+.search {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    width: 377px;
+    height: 49px;
+}
+
+.location-dot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#ville {
+    width: 147px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: black;
+    border: none;
+    outline: none;
+    width: 195px;
+}
+
+#ville::placeholder {
+    color: black;
+    
+}
+
+.search-button {
+    background-color: #0065FC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    width: 132px;
+    height: 49px;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.button {
+    background-color: #0065FC;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button-mobile {
+    display: none;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -194,22 +270,26 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .headerbox {
+    
+    .header-box {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-top: 20px;
         border-bottom:solid 2px #F2F2F2;
         margin-bottom: 20px;
         padding-bottom: 20px;
+        
     }
     
     .logo {
       display: flex;
       justify-content: center;
+      align-items: center;
       padding: 30px;
     }
 
-    .menunav {
+    .menu-nav {
         display: flex;
         justify-content: center;
          
@@ -219,14 +299,14 @@ body {
         width: 80px;
     }
     
-    .menunav a:hover {
+    .menu-nav a:hover {
         color: #0065FC;
         border-block-end: solid 2px #0065FC ;
         border-top: none;
         padding-bottom: 20px;   
     }
 
-    .menunav a{
+    .menu-nav a{
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -236,4 +316,31 @@ body {
         padding: 0 0px;
         box-sizing: border-box;
     }    
+
+    .titre-and-recherche {
+        margin: 0 20px;
+        
+    }
+
+    .search{ 
+        width: 335px;
+    }
+
+    .button {
+        display: none;
+    }
+    
+    .button-mobile {
+        display: contents;
+    }
+
+    .search-button {
+        width: 49px;
+        height: 49px;
+        border-radius: 15px;     
+    }
+    
+    #ville {
+        width: 236px;
+    }
 }
