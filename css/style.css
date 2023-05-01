@@ -165,6 +165,60 @@ body {
     display: none;
 }
 
+/****** filtres ***********/
+.filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 38px;
+}
+
+.filtre-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 5px 20px;
+    gap: 10px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: white;
+}
+
+.button-economique :hover, .button-familial :hover, .button-romantique :hover, .button-pepites :hover{
+    background-color: #DEEBFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 37px;
+}
+
+ .icon-info{ 
+    border: 1px solid #D9D9D9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+ }
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -181,6 +235,13 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 /****** Populaires ***********/
@@ -270,7 +331,7 @@ body {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    
+    /*** header ***/
     .header-box {
         display: flex;
         flex-direction: column;
@@ -317,6 +378,7 @@ body {
         box-sizing: border-box;
     }    
 
+    /*** barre de recherche ***/
     .titre-and-recherche {
         margin: 0 20px;
         
@@ -343,4 +405,17 @@ body {
     #ville {
         width: 236px;
     }
+
+    /*** filtres ***/
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtre-button {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
