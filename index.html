@@ -41,14 +41,12 @@
                         <h1 class="page-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p class="description">En plein centre-ville ou en pleine nature</p>
                     </div>
-                    <div class="search">
+                    <form method=get class="search">
                         <div class="location-dot-icon">
                             <i class="fa-sharp fa-solid fa-location-dot" style="color: #000000;"></i>
                         </div>
-                        <div class="search-form">
-                            <form method="get" action="">
-                                 <input type="text" name="ville" id="ville" placeholder="Marseille,France">
-                            </form>
+                        <div class="search-form">                          
+                             <input type="text" name="ville" id="ville" placeholder="Marseille,France">
                         </div>
                         <div class="search-button">
                             <input type="button" class="button" value="Rechercher ">
@@ -56,48 +54,32 @@
                                 <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
                             </button>
                         </div>
-                    </div>
+                    </form>
                     <div class="filtres">
                         <h2>Filtres</h2>
                         <div class="filtre-button">
                             <article class="button-economique">
-                                <button type="submit" class="button-filtre">
-                                    <div class="icon-billet">
+                                <button type="submit" class="button-filtre">                                   
                                         <i class="fa-sharp fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
-                                    </div>
-                                    <div class="button-text">
-                                        <p>Économique</p>
-                                    </div>
+                                        <span>Économique</span>
                                 </button>
                             </article>
                             <article class="button-familial">
                                 <button type="submit" class="button-filtre">
-                                    <div class="icon-familial">
                                         <i class="fa-solid fa-person" style="color: #0065fc;"></i>
-                                    </div>
-                                    <div class="button-text">
-                                        <p>Familial</p>
-                                    </div>
+                                        <span>Familial</span>
                                 </button>
                             </article>
                             <article class="button-romantique">
                                 <button type="submit" class="button-filtre">
-                                    <div class="icon-romatique">
                                         <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
-                                    </div>
-                                    <div class="button-text">
-                                        <p>Romantique</p>
-                                    </div>
+                                        <span>Romantique</span>
                                 </button>
                             </article>
                             <article class="button-pepites">
                                 <button type="submit" class="button-filtre">
-                                    <div class="icon-pepites">
                                         <i class="fa-sharp fa-solid fa-fire" style="color: #0065fc;"></i>
-                                    </div>
-                                    <div class="button-text">
-                                        <p>Nos pépites</p>
-                                    </div>
+                                        <span>Nos pépites</span>
                                 </button>
                             </article>
 
