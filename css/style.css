@@ -10,10 +10,6 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -552,6 +548,14 @@ footer {
         margin: 0 20px; 
     }
 
+    .page-title {
+        margin-bottom: 8px;
+    }
+
+    .description {
+        margin-top: 0;
+    }
+
     .search{ 
         width: 335px;
     }
@@ -588,6 +592,10 @@ footer {
     }
 
     /*** "hebergement" and "populaires" ***/
+    .populaires {
+        margin-top: 0px;
+    }
+
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
