@@ -649,7 +649,7 @@ footer {
 
     .filtres >h2 {
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .filtre-button {
@@ -694,6 +694,7 @@ footer {
 
     .populaires-cards {
         flex-direction: column;
+        gap: 0;
     }
     
     .populaires-cards .card {
@@ -706,6 +707,10 @@ footer {
         margin-top: 5px;
     }
 
+    .hebergements-title {
+        margin-bottom: 15px;
+    }
+
     .hebergements-cards {
         gap: 15px;
     }
@@ -714,12 +719,17 @@ footer {
         width: 100%;
     }
 
-    .hebergements-cards .card-content {
-        margin-bottom: 15px;
+    .hebergements-cards .card-title {
+        margin-top: 4px;
+        margin-bottom: 8px;
     }
 
     .hebergements-cards .card-subtitle {
-        margin: 8px 0;
+        margin:0 0 8px 0;
+    }
+
+    .hebergements-cards .card-rating {
+        margin-bottom: 10px;
     }
 
     /*** "Activites" ***/
