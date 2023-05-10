@@ -75,7 +75,7 @@ main {
 }
 
 .logo img {
-    width: 80px;
+    width: 60px;
     position: absolute;
 }
 
@@ -97,6 +97,20 @@ main {
 
 .navigation-link {
     margin-right: 50px;
+}
+
+/****** Titres ***********/
+.page-title {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.titre-title p {
+    margin: 0;
+}
+
+.titre-title {
+    padding-bottom: 35px;
 }
 
 /****** barre de recherche ***********/
@@ -136,6 +150,7 @@ main {
 
 #ville::placeholder {
     color: black;
+    opacity: 1;
     
 }
 
@@ -222,6 +237,10 @@ main {
     justify-content: center;
     width: 25px;
     height: 25px;
+ }
+
+ .info p {
+    margin: 0;
  }
 
 
@@ -427,11 +446,26 @@ footer {
     /*** "header ***/
     .header-box {
         margin-left: 30px;
+        padding-bottom: 0;
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .logo img {
+        height: 19px;
+        width: 60px;
     }
 
     .page-title {
         margin-bottom: 8px;
         margin-top: 10px;
+    }
+
+    .page-title p {
+        margin-bottom: 0;
     }
 
     .titre-title p {
@@ -476,6 +510,33 @@ footer {
         width: 100%;
     }
 
+    .hebergements-cards .card {
+        width: 268px;
+        height: 207.25px;
+    }
+
+    .hebergements-cards .card img {
+        width: 258px;
+        height: 114px;
+    }
+
+    .hebergements-cards .card-content .card-title {
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .hebergements-cards .card-content .card-subtitle {
+        margin: 8px 0;
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+
+    .card-rating { 
+        display: flex;
+        gap: 0;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -495,11 +556,15 @@ footer {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-rating {
+        margin-bottom: 10px;
     }
 
     /*** "Activites" ***/
