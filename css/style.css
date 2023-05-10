@@ -203,7 +203,7 @@ main {
 }
 
 .button-economique :hover, .button-familial :hover, .button-romantique :hover, .button-pepites :hover{
-    background-color: #var(--filter-bg-color);
+    background-color: var(--filter-bg-color);
 }
 
 .info {
