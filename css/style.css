@@ -20,6 +20,18 @@
     color: var(--main-black);
 }
 
+.fa-magnifying-glass {
+    color: var(--main-white)
+}
+
+.fa-star-dark {
+    color: var(--main-color);
+}
+
+.fa-star-light {
+    color: var(--main-bg-color);
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -300,7 +312,7 @@ main {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: #var(--main-black);
+    color: var(--main-black);
     text-decoration: none;
 }
 
@@ -417,7 +429,7 @@ footer {
 
 .footer-section a {
     text-decoration: none;
-    color: #var(--main-black);
+    color: var(--main-black);
     padding-top: 15px;
 }
 
