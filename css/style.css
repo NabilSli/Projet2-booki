@@ -137,14 +137,14 @@ main {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    color: black;
+    color: var(--main-black);
     border: none;
     outline: none;
     width: 195px;
 }
 
 #ville::placeholder {
-    color: black;
+    color: var(--main-black);
     
 }
 
@@ -163,7 +163,7 @@ main {
 
 .button {
     background-color: var(--main-color);
-    color: #FFFFFF;
+    color: var(--main-white);
     border: none;
     text-align: center;
     text-decoration: none;
