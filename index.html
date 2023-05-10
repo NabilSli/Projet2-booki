@@ -40,7 +40,7 @@
                     </div>
                     <form method=get class="search"> <!-- form because its a search bar, preparing it for backend; its has to englobe all the inputs  -->
                         <div class="location-dot-icon">
-                            <i class="fa-sharp fa-solid fa-location-dot" style="color: #000000;"></i>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
                         </div>
                         <div class="search-form">                          
                              <input type="text" name="ville" id="ville" placeholder="Marseille,France"> <!-- i used a placeholder to have an exemple texte in the search bar untill something is typed in it -->
@@ -55,27 +55,33 @@
                     <div class="filtres">
                         <h2>Filtres</h2> <!-- now we use h2 because its the 2nd most important title, we want the browser to undestrand the hierarchy -->
                         <div class="filtre-button">
+<<<<<<< Updated upstream
                             <article class="button-economique"> <!-- using acticle and section tab to add different sections to the page, help with referecement and help browsers understand the page and to help with disabled person using the page -->
                                 <button type="submit" class="button-filtre">  <!-- used a submit as it would be the better option for the backend integration to submit directly the data to backend -->                                 
                                         <i class="fa-sharp fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
+=======
+                            <article class="button-economique">
+                                <button type="submit" class="button-filtre">                                   
+                                        <i class="fa-sharp fa-solid fa-money-bill-wave" style="color: var(--main-color);"></i>
+>>>>>>> Stashed changes
                                         <span>Économique</span>
                                 </button>
                             </article>
                             <article class="button-familial">
                                 <button type="submit" class="button-filtre">
-                                        <i class="fa-solid fa-person" style="color: #0065fc;"></i>
+                                        <i class="fa-solid fa-person" style="color: var(--main-color);"></i>
                                         <span>Familial</span>
                                 </button>
                             </article>
                             <article class="button-romantique">
                                 <button type="submit" class="button-filtre">
-                                        <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
+                                        <i class="fa-solid fa-heart" style="color: var(--main-color);"></i>
                                         <span>Romantique</span>
                                 </button>
                             </article>
                             <article class="button-pepites">
                                 <button type="submit" class="button-filtre">
-                                        <i class="fa-sharp fa-solid fa-fire" style="color: #0065fc;"></i>
+                                        <i class="fa-sharp fa-solid fa-fire" style="color: var(--main-color);"></i>
                                         <span>Nos pépites</span>
                                 </button>
                             </article>
@@ -85,7 +91,11 @@
                     </div>
                     <article class="info">
                         <div class="icon-info">
+<<<<<<< Updated upstream
                             <i class="fa-solid fa-info fa-2xs" style="color: #0065fc;"></i>
+=======
+                            <i class="fa-solid fa-info" style="color: var(--main-color);"></i>
+>>>>>>> Stashed changes
                         </div>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
                     </article>
