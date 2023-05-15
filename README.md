@@ -36,5 +36,5 @@ To realise this project there was some technical skill required, such as:
    * [HTML and CSS course](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
    * [Git and GitHub course](https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github)
    * [icons](https://fontawesome.com/docs/web/setup/get-started)
-   * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
+   * [´HTML´](https://developer.mozilla.org/en-US/docs/Web/HTML) 
    * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
