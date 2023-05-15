@@ -1,5 +1,8 @@
 # BOOKI: Exemple of a travel agency website.
-PROJECT 2 of OpenClassroom's Web developer Course
+This website is my first achievement as a web developer. I did it during my boot camp at OpenClassroom's Web developer
+
+## Here you can check the final result
+https://645a7889605f5a058dad93d1--incredible-shortbread-990e7e.netlify.app/#
 
 ## Use the full range of knowledge acquired during the courses.
 To realise this project there was some technical skill required, such as:
@@ -35,7 +38,3 @@ To realise this project there was some technical skill required, such as:
    * [icons](https://fontawesome.com/docs/web/setup/get-started)
    * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
    * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-
-## Here you can check the final result
-https://645a7889605f5a058dad93d1--incredible-shortbread-990e7e.netlify.app/#
