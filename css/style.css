@@ -409,7 +409,7 @@ main {
 }
 
 .activites-cards .card-title {
-    padding: 20px;
+    padding: 15px 20px;
     margin-top: 0;
 }
 
@@ -528,7 +528,7 @@ footer {
     }
 
     .info {
-        margin: 20px 0;
+        margin: 37px 0;
     }
 
     /*** "hebergement" and "populaires" ***/
