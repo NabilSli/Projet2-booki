@@ -40,7 +40,6 @@ body {
 }
 
 .main-container {
-    width: 100%;
     max-width: 1440px;
     box-sizing: border-box;
     margin-left: 20px;
@@ -56,7 +55,7 @@ body {
     background-color: var(--main-white);
     border-radius: 20px;
     padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-links {
@@ -251,7 +250,7 @@ main {
     cursor: pointer;
 }
 
-.button-economique :hover, .button-familial :hover, .button-romantique :hover, .button-pepites :hover{
+.buttons :hover {
     background-color: var(--filter-bg-color);
 }
 
@@ -759,8 +758,8 @@ footer {
     }
 
     .icon-info {
-        width: 31px;
-        height: 23px;
+        width: 37px;
+        height: 27px;
     }
 
     .info {

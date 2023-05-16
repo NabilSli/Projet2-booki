@@ -1,35 +1,37 @@
 # 😃 BOOKI: Exemple of a travel agency website.
-This website is my first achievement as a web developer👏. I did it during my boot camp at OpenClassroom's Web developer
+This website is my first achievement as a web developer👏. I did it during my boot camp at OpenClassroom's Web developer.
 
 ## 👀 Here you can check the final result
-https://645a7889605f5a058dad93d1--incredible-shortbread-990e7e.netlify.app/#
+[See the web site](https://645a7889605f5a058dad93d1--incredible-shortbread-990e7e.netlify.app/#)
+
+# 👁️‍🗨️ Preview
+ ![](https://github.com/NabilSli/projet2/blob/readme/booki.gif)
 
 ## ⭐️ Use the full range of knowledge acquired during the courses.
 To realise this project there was some technical skill required, such as:
 
 
 * 🎯 `HTML`
-  * Build the page using the right tabs
-  * dividing the page in blocks from the wireframe to ensure a responsive design
-  * Search engine optimization
-  * Good syntaxe, comments and indent to make the code easily maintened and readable
-  * Use css properties in order to not repeat the same code multiple time
+  * Build the page using the right tags
+  * Dividing the page into blocks from the wireframe to ensure a responsive design
+  * Search engine optimization: use proper `HTML` semantics, fill `alt` properties
+  * Code quality practices: write comments and indent code to make it maintainable and readable
+  * Factorize with the right css class in order to not repeat the same code multiple time
                                                                            
 * 📚 `CSS`
-  * Hierachise the code
-  * No repetion
+  * Hierachise the code, starting with the desktop view as we are in a desktop-first project, going top to bottom and from the bigger to the smaller view
+  * Use atomic classes to avoid repetition
   * Use media query's to ensure reponsive design
-  * Desktop first focus for this project
-  * Use flexbox and/or grid
+  * Use `flexbox` and/or `grid`
 
 * 👨‍👩‍👧‍👧 `GIT`
-  * Use git for vesrioning
-  * Make pullrequest and have reviews of your work
-  * resolve issues
+  * Use `git` for versioning
+  * Create branches and open pull requests for each new feature
+  * Get reviewed and apply proper corrections
                                                                                
 * ✂️ `FIGMA`
   * Read and manipulate wireframe
-  * wireframe breakdown to ease the html construction
+  * Wireframe breakdown to ease the html construction
                                                                                 
 ## 📓 Resources:
 
