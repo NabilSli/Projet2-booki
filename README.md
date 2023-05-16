@@ -10,16 +10,16 @@ To realise this project there was some technical skill required, such as:
 
 * 🎯 `HTML`
   * Build the page using the right tags
-  * dividing the page into blocks from the wireframe to ensure a responsive design
-  * Search engine optimization
-  * code quality practices: comments and indent to make the code easily maintained and readable
-  * Use the right css class in order to not repeat the same code multiple time
+  * Dividing the page into blocks from the wireframe to ensure a responsive design
+  * Search engine optimization: use proper `HTML` semantics, fill `alt` properties
+  * Code quality practices: write comments and indent code to make it maintainable and readable
+  * Factorize with the right css class in order to not repeat the same code multiple time
                                                                            
 * 📚 `CSS`
-  * Hierachise the code, starting witrh the desktop view as we are in a desktop first project, going top to bottom and from the bigger to the smaller view
-  * No repetion
+  * Hierachise the code, starting with the desktop view as we are in a desktop-first project, going top to bottom and from the bigger to the smaller view
+  * Use atomic classes to avoid repetition
   * Use media query's to ensure reponsive design
-  * Use flexbox and/or grid
+  * Use `flexbox` and/or `grid`
 
 * 👨‍👩‍👧‍👧 `GIT`
   * Use `git` for versioning
@@ -28,7 +28,7 @@ To realise this project there was some technical skill required, such as:
                                                                                
 * ✂️ `FIGMA`
   * Read and manipulate wireframe
-  * wireframe breakdown to ease the html construction
+  * Wireframe breakdown to ease the html construction
                                                                                 
 ## 📓 Resources:
 
