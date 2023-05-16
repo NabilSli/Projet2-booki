@@ -250,7 +250,7 @@ main {
     cursor: pointer;
 }
 
-.button-economique :hover, .button-familial :hover, .button-romantique :hover, .button-pepites :hover{
+.buttons :hover {
     background-color: var(--filter-bg-color);
 }
 
