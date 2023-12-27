@@ -2,10 +2,7 @@
 This website is my first achievement as a web developer👏. I did it during my boot camp at OpenClassroom's Web developer.
 
 ## 👀 Here you can check the final result
-[See the web site](https://645a7889605f5a058dad93d1--incredible-shortbread-990e7e.netlify.app/#)
-
-# 👁️‍🗨️ Preview
- ![](https://github.com/NabilSli/projet2/blob/readme/booki.gif)
+[See the web site](https://booki-oc-projet2.netlify.app/)
 
 ## ⭐️ Use the full range of knowledge acquired during the courses.
 To realise this project there was some technical skill required, such as:
